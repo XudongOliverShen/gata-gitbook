@@ -34,4 +34,7 @@ DVA evaluates the quality of image-caption pairs from across the internet and as
 A: Although the jobs are computationally light, we enforce a 45-second limit to prevent any one user from monopolizing DataAgent jobs and to ensure everyone can participate.
 
 **Q: I've run jobs for a while and completed some, but I haven't earned any Intelligence points. Why?**\
-A: Intelligence points are earned only when the majority of peers running the same job agree on the result through our consensus mechanism. This process can take days, and even correct executions might not earn points if the peers disagree.
+A: Intelligence points are earned only when the majority of peers running the same job agree on the result through our consensus mechanism. **This process can take days**, and even correct executions might not earn points if the peers disagree.
+
+**Q: I've noticed that only 10% of my completed jobs have earned intelligence points. Why?**\
+A: This is expected during our beta phase. We have set a high consensus threshold to ensure quality, which means fewer jobs earn points at this time. Several factors may contribute to this, including malicious actors exploiting the DataAgent by not completing tasks authentically and occasional machine-related execution errors. We appreciate your understanding and are actively working to increase the points awarded once beta testing is complete.
